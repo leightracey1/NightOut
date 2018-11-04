@@ -236,6 +236,8 @@ async function populateEvents(events) {
         resultsListDiv.removeChild(resultsListDiv.firstChild);
     }
 
+    
+
     let sortedEvents = sortEventsByDate(events);
     venueMarkers = [];
     for (var i = 0; i < sortedEvents.length; i++) {
@@ -256,6 +258,8 @@ async function populateLocations(locations) {
     while(resultsListDiv.firstChild) {
         resultsListDiv.removeChild(resultsListDiv.firstChild);
     }
+
+    $(".finalpage2").html("drinks? food?")
 
     let ratingSort = sortPlacesByRating(locations);
     for(let i = 0; i < ratingSort.length; i++) {
@@ -284,7 +288,7 @@ async function populateUserChoices() {
     $('#results-message').addClass('hidden');
 
     let eventHeader = document.createElement('h3');
-    eventHeader.textContent = 'Event';
+    eventHeader.textContent = 'Looks like a fun night at: ';
     resultsListDiv.appendChild(eventHeader);
 
     let eventCard = createEventCard(chosenEvent, chosenEvent._embedded.venues[0], true);
@@ -293,7 +297,7 @@ async function populateUserChoices() {
     resultsListDiv.appendChild(eventCard);
 
     let placeHeader = document.createElement('h3');
-    placeHeader.textContent = 'After';
+    placeHeader.textContent = 'Followed by: ';
     resultsListDiv.appendChild(placeHeader);
 
     await sleep(500);

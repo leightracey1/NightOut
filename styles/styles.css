@@ -142,6 +142,10 @@ body {
 
 }
 
+.title1 {
+    font-size: 50px;
+}
+
 .finalpage {
  text-align: center;
  font-family: 'Vidaloka', serif;
@@ -170,15 +174,15 @@ body {
 
 .noideatext {
   text-align: center;
-  font-size: 15px;
+  font-size: 20px;
   font-family: 'Vidaloka', serif;
+  margin-top: 80px;
 }
 
 #section3 {
     height:100vh;
-    
-    background: lightblue;
-    background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png")
+    background: lightcoral;
+    background-image: url("https://www.transparenttextures.com/patterns/clean-textile.png")
     /* background-image:url("http://www.mycoolbackgrounds.com/backgrounds/19629/Night%20Skyline,%20Atlanta,%20Georgia.jpg"); */
     /* background-size: 100%; */
     /* opacity: 0x; */
@@ -261,7 +265,7 @@ body {
         width: 0;   
     }
     to {
-        width: 15em; 
+        width: 14em; 
     }
 }
 
@@ -280,6 +284,7 @@ body {
 
 ::placeholder {
     color: white;
+    text-align: center;
 }
 
 
@@ -299,16 +304,15 @@ body {
     color: yellow;
 }
 
-#title1{
-    text-shadow: 1.5px 1.5px gray;
-}
 
 #results-list {
     text-align: center;
 }
 
 h3 {
-    text-shadow: 2px 2px gray;
+    font-size: 40px;
+  /* font-family: 'Amaranth', sans-serif; */
+  font-family: 'Vidaloka', serif;
 }
 
 .details-container .result-card:hover {
