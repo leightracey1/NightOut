@@ -74,7 +74,7 @@ function button0() {
         'top': '50%', 
         'margin': '0 auto',  
         'border-right': '2px solid rgba(255,255,255, 0.75)', 
-        'font-size': '40px',  
+        // 'font-size': '40px',  
         'white-space': 'nowrap', 
         'overflow': 'hidden', 'transform': 'translateY(-50%)'
     })
@@ -97,12 +97,12 @@ function button1(){
         'top': '50%', 
         'margin': '0 auto',  
         'border-right': '2px solid rgba(255,255,255, 0.75)', 
-        'font-size': '40px',  
+        // 'font-size': '40px',  
         'white-space': 'nowrap', 
         'overflow': 'hidden', 'transform': 'translateY(-50%)'
     })
     $(".anim-typewriter1").css({
-        'animation': 'typewriter 4s steps(28) 1s 1 normal both, blinkTextCursor 500ms steps(28) infinite normal'
+        'animation': 'typewriter1 4s steps(28) 1s 1 normal both, blinkTextCursor 500ms steps(28) infinite normal'
     })
     
 }
@@ -114,12 +114,12 @@ function button2(){
         'top': '50%', 
         'margin': '0 auto',  
         'border-right': '2px solid rgba(255,255,255, 0.75)', 
-        'font-size': '40px',  
+        // 'font-size': '40px',  
         'white-space': 'nowrap', 
         'overflow': 'hidden', 'transform': 'translateY(-50%)'
     })
     $(".anim-typewriter2").css({
-        'animation': 'typewriter1 4s steps(28) 1s 1 normal both, blinkTextCursor 500ms steps(28) infinite normal'
+        'animation': 'typewriter2 4s steps(28) 1s 1 normal both, blinkTextCursor 500ms steps(28) infinite normal'
     })
   
 }

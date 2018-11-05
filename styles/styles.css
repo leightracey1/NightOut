@@ -247,7 +247,7 @@ body {
         width: 0;   
     }
     to {
-        width: 13em; 
+        width: 11em; 
     }
 }
 
@@ -265,7 +265,16 @@ body {
         width: 0;   
     }
     to {
-        width: 14em; 
+        width: 13em; 
+    }
+}
+
+@keyframes typewriter2 {
+    from {
+        width: 0;   
+    }
+    to {
+        width: 11.5em; 
     }
 }
 
@@ -436,6 +445,10 @@ Media Queries
     .horizontal img {
         max-height: 120px;
         max-width: 120px;
+    }
+
+    .nightout {
+        font-size: 30px;
     }
     
 }
