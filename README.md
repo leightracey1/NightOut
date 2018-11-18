@@ -1,7 +1,7 @@
 # Project-1
 
 ### Online Demo
-You can test the website at https://taesch124.github.io/Project-1/. Just follow the prompts on the web page.
+You can test the website at https://leightracey1.github.io/NightOut/. Just follow the prompts on the web page.
 
 ![](./images/results-screenshot.jpg)
 
